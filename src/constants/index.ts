@@ -5,7 +5,10 @@ import { fortmatic, injected, portis, walletconnect, walletlink } from '../conne
 
 //Router
 //export const ROUTER_ADDRESS = '0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F'
-export const ROUTER_ADDRESS = '0x5731054c2022A6567Ee9D970579d7bc05B5dF123'
+//BSC MAINNET
+export const ROUTER_ADDRESS = '0x267bAbbE93B9E9499aCA9938Dd46922590428643'
+// BSC TESTNET
+// export const ROUTER_ADDRESS = '0x5731054c2022A6567Ee9D970579d7bc05B5dF123'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -25,6 +28,7 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.BSCT]: [WETH[ChainId.BSCT]],
+  [ChainId.BSC]: [WETH[ChainId.BSC]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]]
 }
 
