@@ -12,6 +12,7 @@ export enum ChainId {
   BSCT = 97
 }
 
+400000000000000000000000000
 export enum TradeType {
   EXACT_INPUT,
   EXACT_OUTPUT
@@ -24,7 +25,7 @@ export enum Rounding {
 }
 
 // Factory
-export const FACTORY_ADDRESS = '0x822fc2eB2d817c1A05D6B09BB550A2fc35607444'
+export const FACTORY_ADDRESS = '0x25a5Cd50AF307891BEAe357E28084a017d92aA87'
 
 // export const FACTORY_ADDRESS = '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac'
 
